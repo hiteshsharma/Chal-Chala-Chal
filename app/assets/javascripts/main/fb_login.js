@@ -46,6 +46,19 @@ fbData.prototype.handleLoginEvents = function(response){
   }
 };
 
+window.fblogin = function(){
+  FB.ui({
+    method:"login",
+    client_id: "604743509613601",
+    display: 'popup',
+    state: "1234433",
+    scope: "user_about_me,friends_about_me,user_hometown,friends_hometown,user_location,friends_location,friends_photos,user_work_history,friends_work_history"
+  },
+        function(response){
+          console.log(response);
+        });
+};
+
 fbData.prototype.getProfileInfo = function(city){
   var that = this;
   FB.api(

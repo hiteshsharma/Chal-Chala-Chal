@@ -1,4 +1,14 @@
 $(document).ready(function(){
+  $(window).on("user_loggedin",function(){
+    var login_button = $(".home-container .controls-container .login-button");
+    var search_controls = $(".home-container .controls-container .search");
+    login_button.removeClass("visible").addClass("hide");
+    search_controls.removeClass("hide").addClass("visible");
+  });
+      $(".home-container .controls-container .login-button input").on("click", function(){
+      window.fblogin();
+    });
+
   var animateHomeBG = function(){
     var visibleImg = $(".home-container .home-images.visible");
     var nextImg = visibleImg.next();
@@ -43,19 +53,15 @@ $(document).ready(function(){
       if(!x.filteredFriends.hasOwnProperty(index)){
         continue;
       }
-      count++;
-      if(count >= 6){
-        return;
-      }
     var friend = x.filteredFriends[index];
-      var friendHolder = $(".friends-holder .friend-holder").clone();
+      var friendHolder = $(".friends-holder .friend-holder").first().clone();
       friendHolder.find(".header img").attr("src", friend.pic);
       friendHolder.find(".header .name").text(friend.name);
       var action_text = "";
       var city = list.selectedCity().split(",")[0];
       switch(friend.searchType){
       case "location":
-        action_text = "Was located in " + city;
+        action_text = "Has Lived in " + city;
         break;
       case "work":
         action_text = "Has worked in " + city;
