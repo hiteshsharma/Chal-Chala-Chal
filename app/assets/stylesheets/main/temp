@@ -1,0 +1,353 @@
+<div class="friends-holder" style="
+    /* border: 1px solid gray; */
+    /* overflow: auto; */
+    /* float: right; */
+    display: inline;
+">
+	<div class="friend-holder" style="
+    /* border: 1px solid gray; */
+    margin-left: 8px;
+    box-shadow: 0px 2px 6px #887;
+    background: #EEE;
+    margin-bottom: 10px;
+    float: left;
+">
+      <div class="header" style="
+    margin-top: 10px;
+">
+        <img src="https://m.ak.fbcdn.net/profile.ak/hprofile-ak-prn2/t5.0-1/1118037_551713650_1338927978_q.jpg" style="
+    float: left;
+    margin-left: 10px;
+    border: 1px solid black;
+">
+        <div class="name" style="
+    margin-left: 70px;
+    letter-spacing: 1px;
+    font-size: 22px;
+">Arpit Dhariwal</div>
+      <div class="action" style="
+    margin-left: 70px;
+    margin-top: 7px;
+    font-size: 14px;
+    color: gray;
+">Was located in Goa</div></div>
+      <div class="bottom" style="
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 45px;
+">
+        
+        <a class="send-message" style="
+    float: left;
+    margin-left: 10px;
+    /* color: rgb(100,100,196); */
+" href="#">send Message</a>
+        <a class="view-album" style="
+    float: right;
+    margin-right: 20px;
+    /* color: rgb(100,100,196); */
+" href="#">view album</a>
+      </div>
+  </div><div class="friend-holder" style="
+    /* border: 1px solid gray; */
+    margin-left: 8px;
+    box-shadow: 0px 2px 6px #887;
+    background: #EEE;
+">
+      <div class="header" style="
+    margin-top: 10px;
+">
+        <img src="https://m.ak.fbcdn.net/profile.ak/hprofile-ak-prn2/t5.0-1/1118037_551713650_1338927978_q.jpg" style="
+    float: left;
+    margin-left: 10px;
+    border: 1px solid black;
+">
+        <div class="name" style="
+    margin-left: 70px;
+    letter-spacing: 1px;
+    font-size: 22px;
+">Arpit Dhariwal</div>
+      <div class="action" style="
+    margin-left: 70px;
+    margin-top: 7px;
+    font-size: 14px;
+    color: gray;
+">Was located in Goa</div></div>
+      <div class="bottom" style="
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 45px;
+">
+        
+        <a class="send-message" style="
+    float: left;
+    margin-left: 10px;
+    /* color: rgb(100,100,196); */
+" href="#">send Message</a>
+        <a class="view-album" style="
+    float: right;
+    margin-right: 20px;
+    /* color: rgb(100,100,196); */
+" href="#">view album</a>
+      </div>
+  </div>
+<div class="friend-holder" style="
+    /* border: 1px solid gray; */
+    margin-left: 8px;
+    box-shadow: 0px 2px 6px #887;
+    background: #EEE;
+">
+      <div class="header" style="
+    margin-top: 10px;
+">
+        <img src="https://m.ak.fbcdn.net/profile.ak/hprofile-ak-prn2/t5.0-1/1118037_551713650_1338927978_q.jpg" style="
+    float: left;
+    margin-left: 10px;
+    border: 1px solid black;
+">
+        <div class="name" style="
+    margin-left: 70px;
+    letter-spacing: 1px;
+    font-size: 22px;
+">Arpit Dhariwal</div>
+      <div class="action" style="
+    margin-left: 70px;
+    margin-top: 7px;
+    font-size: 14px;
+    color: gray;
+">Was located in Goa</div></div>
+      <div class="bottom" style="
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 45px;
+">
+        
+        <a class="send-message" style="
+    float: left;
+    margin-left: 10px;
+    /* color: rgb(100,100,196); */
+" href="#">send Message</a>
+        <a class="view-album" style="
+    float: right;
+    margin-right: 20px;
+    /* color: rgb(100,100,196); */
+" href="#">view album</a>
+      </div>
+  </div>
+<div class="friend-holder" style="
+    /* border: 1px solid gray; */
+    margin-left: 8px;
+    box-shadow: 0px 2px 6px #887;
+    background: #EEE;
+">
+      <div class="header" style="
+    margin-top: 10px;
+">
+        <img src="https://m.ak.fbcdn.net/profile.ak/hprofile-ak-prn2/t5.0-1/1118037_551713650_1338927978_q.jpg" style="
+    float: left;
+    margin-left: 10px;
+    border: 1px solid black;
+">
+        <div class="name" style="
+    margin-left: 70px;
+    letter-spacing: 1px;
+    font-size: 22px;
+">Arpit Dhariwal</div>
+      <div class="action" style="
+    margin-left: 70px;
+    margin-top: 7px;
+    font-size: 14px;
+    color: gray;
+">Was located in Goa</div></div>
+      <div class="bottom" style="
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 45px;
+">
+        
+        <a class="send-message" style="
+    float: left;
+    margin-left: 10px;
+    /* color: rgb(100,100,196); */
+" href="#">send Message</a>
+        <a class="view-album" style="
+    float: right;
+    margin-right: 20px;
+    /* color: rgb(100,100,196); */
+" href="#">view album</a>
+      </div>
+  </div>
+<div class="friend-holder" style="
+    /* border: 1px solid gray; */
+    margin-left: 8px;
+    box-shadow: 0px 2px 6px #887;
+    background: #EEE;
+">
+      <div class="header" style="
+    margin-top: 10px;
+">
+        <img src="https://m.ak.fbcdn.net/profile.ak/hprofile-ak-prn2/t5.0-1/1118037_551713650_1338927978_q.jpg" style="
+    float: left;
+    margin-left: 10px;
+    border: 1px solid black;
+">
+        <div class="name" style="
+    margin-left: 70px;
+    letter-spacing: 1px;
+    font-size: 22px;
+">Arpit Dhariwal</div>
+      <div class="action" style="
+    margin-left: 70px;
+    margin-top: 7px;
+    font-size: 14px;
+    color: gray;
+">Was located in Goa</div></div>
+      <div class="bottom" style="
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 45px;
+">
+        
+        <a class="send-message" style="
+    float: left;
+    margin-left: 10px;
+    /* color: rgb(100,100,196); */
+" href="#">send Message</a>
+        <a class="view-album" style="
+    float: right;
+    margin-right: 20px;
+    /* color: rgb(100,100,196); */
+" href="#">view album</a>
+      </div>
+  </div>
+<div class="friend-holder" style="
+    /* border: 1px solid gray; */
+    margin-left: 8px;
+    box-shadow: 0px 2px 6px #887;
+    background: #EEE;
+">
+      <div class="header" style="
+    margin-top: 10px;
+">
+        <img src="https://m.ak.fbcdn.net/profile.ak/hprofile-ak-prn2/t5.0-1/1118037_551713650_1338927978_q.jpg" style="
+    float: left;
+    margin-left: 10px;
+    border: 1px solid black;
+">
+        <div class="name" style="
+    margin-left: 70px;
+    letter-spacing: 1px;
+    font-size: 22px;
+">Arpit Dhariwal</div>
+      <div class="action" style="
+    margin-left: 70px;
+    margin-top: 7px;
+    font-size: 14px;
+    color: gray;
+">Was located in Goa</div></div>
+      <div class="bottom" style="
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 45px;
+">
+        
+        <a class="send-message" style="
+    float: left;
+    margin-left: 10px;
+    /* color: rgb(100,100,196); */
+" href="#">send Message</a>
+        <a class="view-album" style="
+    float: right;
+    margin-right: 20px;
+    /* color: rgb(100,100,196); */
+" href="#">view album</a>
+      </div>
+  </div>
+<div class="friend-holder" style="
+    /* border: 1px solid gray; */
+    margin-left: 8px;
+    box-shadow: 0px 2px 6px #887;
+    background: #EEE;
+">
+      <div class="header" style="
+    margin-top: 10px;
+">
+        <img src="https://m.ak.fbcdn.net/profile.ak/hprofile-ak-prn2/t5.0-1/1118037_551713650_1338927978_q.jpg" style="
+    float: left;
+    margin-left: 10px;
+    border: 1px solid black;
+">
+        <div class="name" style="
+    margin-left: 70px;
+    letter-spacing: 1px;
+    font-size: 22px;
+">Arpit Dhariwal</div>
+      <div class="action" style="
+    margin-left: 70px;
+    margin-top: 7px;
+    font-size: 14px;
+    color: gray;
+">Was located in Goa</div></div>
+      <div class="bottom" style="
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 45px;
+">
+        
+        <a class="send-message" style="
+    float: left;
+    margin-left: 10px;
+    /* color: rgb(100,100,196); */
+" href="#">send Message</a>
+        <a class="view-album" style="
+    float: right;
+    margin-right: 20px;
+    /* color: rgb(100,100,196); */
+" href="#">view album</a>
+      </div>
+  </div>
+
+<div class="friend-holder" style="
+    /* border: 1px solid gray; */
+    margin-left: 8px;
+    box-shadow: 0px 2px 6px #887;
+    background: #EEE;
+">
+      <div class="header" style="
+    margin-top: 10px;
+">
+        <img src="https://m.ak.fbcdn.net/profile.ak/hprofile-ak-prn2/t5.0-1/1118037_551713650_1338927978_q.jpg" style="
+    float: left;
+    margin-left: 10px;
+    border: 1px solid black;
+">
+        <div class="name" style="
+    margin-left: 70px;
+    letter-spacing: 1px;
+    font-size: 22px;
+">Arpit Dhariwal</div>
+      <div class="action" style="
+    margin-left: 70px;
+    margin-top: 7px;
+    font-size: 14px;
+    color: gray;
+">Was located in Goa</div></div>
+      <div class="bottom" style="
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 45px;
+">
+        
+        <a class="send-message" style="
+    float: left;
+    margin-left: 10px;
+    /* color: rgb(100,100,196); */
+" href="#">send Message</a>
+        <a class="view-album" style="
+    float: right;
+    margin-right: 20px;
+    /* color: rgb(100,100,196); */
+" href="#">view album</a>
+      </div>
+  </div>
+</div>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%= javascript_include_tag "jquery-1.11.0.min" %>
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+    </style>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script type="text/javascript">
+      var travelConf = <%= raw $travel_conf["cities"].to_json %>;
+      $(document).ready(function(){
+      
+      });
+    </script>
+  </head>
+  <body>
+    <div id="fb-root" style="display:none;"></div>
+    <div class="home-container">
+      <%= image_tag "Venice-Bridge.jpg", class: "home-images visible" %>
+      <%= image_tag "Narrow-canal-of-Venice.jpg", class: "home-images hide" %>
+      <%= image_tag "christ-statue-in-brazil-travel-panorama.jpg", class: "home-images hide" %>
+      <%= image_tag "197_1680_948.jpg", class: "home-images hide" %>
+      <div class="controls-container">
+        <div class="title">Chal Chala Chal</div>
+        <input type="input" class="city-input" placeholder="Where are you travelling?"/>
+        <input type="button" class="go" value=""/>
+      </div>     
+    </div>
+    <div class="map-page-container hide">
+      <div class="controls-container">
+        <div class="name-container">
+          <span>Ask your friends about</span>
+          <span class="city"></span>
+        </div>
+      </div>
+      <input type="button" class="change-loc" value="Change Location"/>
+      <div class="bottom-container">
+        <div id="map-canvas"></div>
+        <div class="friends-holder">
+	        <div class="friend-holder hide">
+            <div class="header">
+              <img src="https://m.ak.fbcdn.net/profile.ak/hprofile-ak-prn2/t5.0-1/1118037_551713650_1338927978_q.jpg">
+              <div class="name">Arpit Dhariwal</div>
+              <div class="action">Was located in Goa</div>
+            </div>
+            <div class="bottom">
+              <a class="send-message" href="#">send Message</a>
+              <a class="view-album" target="_blank"  href="#">view album</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

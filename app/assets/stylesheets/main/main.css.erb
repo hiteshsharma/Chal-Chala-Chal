@@ -1,0 +1,149 @@
+body{
+  width: 100%;
+  height: 100%;
+  background: rgb(72, 77, 95);
+}
+.home-container{
+  width: 100%;
+  height: 100%;
+}
+.home-images{
+  width: 100%;
+  height: 100%;
+}
+
+.hide{
+  display: none;
+}
+
+.visible{
+  display: inline;
+}
+.home-images.visible{
+  opacity: 0.8;
+}
+.home-container .controls-container{
+position: absolute;
+top: 24%;
+left: 26%;
+padding: 40px;
+/* background-color: black; */
+border-radius: 29px;
+background: rgba(0,0,0,0.6);
+height: 220px;
+width: 690px;
+}
+.home-container .controls-container .title{
+
+    position: absolute;
+    top: 5%;
+    font-size: 55px;
+    left: 24%;
+    font-family: Didot, "Didot LT STD", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+.home-container .controls-container .city-input{
+
+    width: 80%;
+    height: 20%;
+    border-radius: 14px;
+    border: none;
+    background-color: rgb(250,250,250);
+    font-size: 25px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15%;
+
+}
+
+.home-container .controls-container .go{
+    border: none;
+    background-image: url('http://sexualityinart.files.wordpress.com/2011/10/right-arrow-1.jpg?w=620');
+    width: 42px;
+    height: 42px;
+    background-color: none;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.map-page-container .controls-container{
+  padding: 30px;
+  z-index: 100000;
+}
+.map-page-container .name-container{
+  float: left;
+  color: white;
+  font-size: 40px;
+  display: inline;
+  margin-top: 15px;
+  font-family: Didot, "Didot LT STD", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-style: italic;
+font-weight: bold;
+}
+.map-page-container  .change-loc{
+  margin-bottom: 2px;
+  border: none;
+  background: white;
+  height: 36px;
+  float: right;
+  margin-right: 260px;
+  padding: 12px;
+  border-radius: 11px;
+}
+.map-page-container .bottom-container{
+  margin-left: 30px;
+  margin-top: 60px;
+}
+#map-canvas{
+  width: 80%;
+  height: 700px;
+  float: left;
+}
+.friends-holder{
+  height: 700px;
+  overflow: scroll;
+}
+.friend-holder{
+    margin-left: 8px;
+    box-shadow: 0px 2px 6px #C1D14E;
+    background: #FFF;
+    margin-bottom: 10px;
+    float: left;
+    width: 265px;
+}
+.friend-holder .header{
+  margin-top: 10px;
+}
+.friend-holder .header img{
+  float: left;
+  margin-left: 10px;
+  border: 1px solid black; 
+}
+.friend-holder .header .name{
+  margin-left: 70px;
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+.friend-holder .header .action{
+      margin-left: 70px;
+    margin-top: 7px;
+    font-size: 14px;
+    color: gray;
+}
+.friend-holder .bottom{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+.friend-holder .bottom .send-message{
+  float: left;
+  margin-left: 10px; 
+}
+.friend-holder .bottom .view-album{
+  float: right;
+  margin-right: 20px;
+}
