@@ -13,7 +13,7 @@ fbData.prototype.bindEvents = function(){
 fbData.prototype.init = function(){
   var that = this;
   this.filteredFriends = [];
-  
+  	$('body').prepend('<div id="fb-root"></div>');
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '604743509613601',
@@ -22,7 +22,7 @@ fbData.prototype.init = function(){
       cookie     : true, // enable cookies to allow the server to access the session
       xfbml      : true  // parse XFBML
     });
-    FB.Event.subscribe('auth.authResponseChange', that.handleLoginEvents);
+    FB.Event.subscribe('auth.statusChange', that.handleLoginEvents);
   };
   (function(d){
    var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
@@ -47,16 +47,7 @@ fbData.prototype.handleLoginEvents = function(response){
 };
 
 window.fblogin = function(){
-  FB.ui({
-    method:"login",
-    client_id: "604743509613601",
-    display: 'popup',
-    state: "1234433",
-    scope: "user_about_me,friends_about_me,user_hometown,friends_hometown,user_location,friends_location,friends_photos,user_work_history,friends_work_history"
-  },
-        function(response){
-          console.log(response);
-        });
+  FB.login();
 };
 
 fbData.prototype.getProfileInfo = function(city){
